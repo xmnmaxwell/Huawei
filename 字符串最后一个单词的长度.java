@@ -1,9 +1,9 @@
 import java.util.*; //为了添加scanner
 public class Main{
     public static void main(String[] args){
-        Scanner scan = new Scanner(System.in);
+        Scanner scan = new Scanner(System.in); //创建一个输入流
         while(scan.hasNext()){
-            String str = scan.nextLine();
+            String str = scan.nextLine(); //扫描一整行输出
             System.out.println(wordLen(str));
         }
     }
